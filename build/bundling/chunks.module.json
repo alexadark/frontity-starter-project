@@ -1,0 +1,89 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.5",
+  "hash": "a131053a4c634404fa67",
+  "publicPath": "/static/",
+  "outputPath": "/Users/alexaspalato/projects/gatsby-projects/frontity-wp/build/static",
+  "assetsByChunkName": {
+    "archive": "archive.module.js",
+    "frontity-wp": "frontity-wp.module.js"
+  },
+  "assets": [
+    {
+      "name": "archive.module.js",
+      "size": 34818,
+      "chunks": [
+        "archive"
+      ],
+      "chunkNames": [
+        "archive"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "frontity-wp.module.js",
+      "size": 16237535,
+      "chunks": [
+        "frontity-wp"
+      ],
+      "chunkNames": [
+        "frontity-wp"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logo.svg",
+      "size": 1863,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "frontity-wp": {
+      "chunks": [
+        "frontity-wp"
+      ],
+      "assets": [
+        "frontity-wp.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "frontity-wp": {
+      "chunks": [
+        "frontity-wp"
+      ],
+      "assets": [
+        "frontity-wp.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "archive": {
+      "chunks": [
+        "archive"
+      ],
+      "assets": [
+        "archive.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
