@@ -14,10 +14,8 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Home", "/"],
             ["About", "/about/"],
             ["Typography", "/typography/"],
-            ["Journal", "/journal/"],
             ["Projects", "/projects/"]
           ],
           // logo: "Starter",
@@ -51,8 +49,6 @@ const settings = {
       state: {
         source: {
           api: "https://demo-wp.alexaspalato.website/wp-json",
-          homepage: "home",
-          postsPage: "journal",
           params: {
             per_page: 3
           },

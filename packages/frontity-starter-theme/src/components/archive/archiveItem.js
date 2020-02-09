@@ -20,7 +20,8 @@ const ArchiveItem = ({ item, state, type }) => {
     categories,
     tags,
     featured_media,
-    excerpt
+    excerpt,
+    acf
   } = formatPostData(state, item);
   const date = new Date(publishDate);
 
