@@ -1,15 +1,4 @@
-import {
-  form,
-  search,
-  colors,
-  buttons,
-  text,
-  card,
-  gradients,
-  header,
-  footer,
-  list
-} from "./components";
+import { colors, buttons, text, card, header, footer } from "./components";
 import {
   fonts,
   fontSizes,
@@ -25,12 +14,8 @@ export default {
   fontWeights,
   lineHeights,
   text,
-  gradients,
   buttons,
   card,
-  search,
-  form,
-  list,
   header,
   footer,
   sizes: {
@@ -73,29 +58,24 @@ export default {
     l: { transition: `all .8s ease-in-out` },
     xl: { transition: `all 1s ease-in-out` }
   },
+  layout: {
+    backgroundColor: "background",
+    color: "text",
+    fontFamily: "body",
+    fontSize: `s`,
+    lineHeight: "text",
+    container: {
+      px: [20, 30, 0]
+    }
+  },
   styles: {
-    Layout: {
-      backgroundColor: "background",
-      color: "text",
-      fontFamily: "body",
-      fontSize: `s`,
-      lineHeight: "text",
-      "&.fullWidth": {
-        ".container": {
-          maxWidth: `100%`
-        }
-      }
-    },
-
-    Container: {
-      maxWidth: `container`,
-      m: `0 auto`,
-      p: 0
-    },
-
     root: base
   },
-  global: {
-    colors
+  //Grommet
+
+  layer: {
+    overlay: {
+      background: "primary"
+    }
   }
 };

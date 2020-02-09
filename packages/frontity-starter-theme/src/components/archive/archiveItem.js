@@ -1,13 +1,11 @@
 /** @jsx jsx */
 import { jsx, Container } from "theme-ui";
-
 import Link from "../link";
-import { connect, css } from "frontity";
+import { connect } from "frontity";
 import PostEntryInfo from "../post/postEntryInfo";
 import Taxonomies from "../post/taxonomies";
 import { formatPostData } from "../../helpers";
 import PostEntryMedia from "../post/postEntryMedia";
-import { Box, Heading, Button } from "grommet";
 import featuredStyles from "../../styles/featuredStyles";
 
 const ArchiveItem = ({ item, state, type }) => {
@@ -40,7 +38,7 @@ const ArchiveItem = ({ item, state, type }) => {
           )}
           <h2 dangerouslySetInnerHTML={{ __html: title }} />
         </Link>
-        {postInfo.showOnArchive && type === "post" && (
+        {postInfo.showOnArchive && type !== "projects" && (
           <PostEntryInfo author={author} date={date} />
         )}
         {item.excerpt && (
@@ -50,7 +48,7 @@ const ArchiveItem = ({ item, state, type }) => {
           />
         )}
 
-        {postMeta.showOnArchive && type === "post" && (
+        {postMeta.showOnArchive && type !== "projects" && (
           <div className="postEntryMeta">
             <Taxonomies tax={categories} name="Categories" />
             <Taxonomies tax={tags} name="Tags" />

@@ -20,7 +20,7 @@ const Header = ({ state }) => {
               sx={{ display: ["none", "none", "block"], px: 10 }}
             />
             <MobileMenu sx={{ display: ["block", "block", "none"] }} />
-            <ColorSwitch sx={{ ml: 10 }} />
+            <ColorSwitch sx={{ ml: 10, height: 24, mt: [13, 13, 0] }} />
           </Flex>
           {state.theme.showSocialLinks.header && <SocialShare />}
         </Container>

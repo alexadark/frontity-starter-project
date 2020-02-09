@@ -49,7 +49,7 @@ const Post = ({ state, libraries, actions }) => {
   }, []);
 
   return data.isReady ? (
-    <Container sx={{ maxWidth: "l" }}>
+    <Container className="container" sx={{ maxWidth: "l" }}>
       <article sx={{ variant: "card.default" }}>
         {featured.showOnPost && (
           <PostEntryMedia

@@ -12,7 +12,7 @@ export const header = {
     fontSize: "m",
     margin: "0 auto",
     maxWidth: "container",
-    py: "xs",
+    py: "s",
     width: "90vw"
   },
   a: {

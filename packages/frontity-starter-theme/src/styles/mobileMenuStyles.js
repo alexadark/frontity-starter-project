@@ -8,7 +8,7 @@ const fadeIn = keyframes`
 export default {
   fontFamily: "body",
   borderRadius: 0,
-  bg: "slideSidebarBg",
+  bg: "mobileMenuBg",
   width: ["100%", "468px"],
   display: "flex",
   overflowY: "scroll",
@@ -29,16 +29,17 @@ export default {
   nav: {
     ".menu-item": {
       color: "light",
-      fontSize: "l",
+      fontSize: "m",
       textTransform: "uppercase",
       letterSpacing: 1.2,
       py: 10,
       lineHeight: 1,
-      borderBottom: "1px dotted #666",
+      borderBottom: "1px dotted",
+      borderColor: "border",
       fontWeight: 300,
 
       "&:hover": {
-        color: "accent"
+        color: "mobileMenuHoverColor"
       }
     },
 

@@ -10,22 +10,23 @@ const ColorSwitch = ({ ...props }) => {
       a11yTitle="Toggle dark mode"
       onClick={() => setColorMode(colorMode === "default" ? "dark" : "default")}
       plain
+      icon={
+        colorMode === "dark" ? (
+          <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1 }} />
+        ) : (
+          <FiMoon
+            sx={{
+              width: `24px`,
+              height: `24px`,
+              strokeWidth: 1,
+              svg: { stroke: `accent`, fill: `accent` },
+              mt: 3
+            }}
+          />
+        )
+      }
       {...props}
-    >
-      {colorMode === "dark" ? (
-        <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1 }} />
-      ) : (
-        <FiMoon
-          sx={{
-            width: `24px`,
-            height: `24px`,
-            strokeWidth: 1,
-            svg: { stroke: `accent`, fill: `accent` },
-            mt: 3
-          }}
-        />
-      )}
-    </Button>
+    />
   );
 };
 

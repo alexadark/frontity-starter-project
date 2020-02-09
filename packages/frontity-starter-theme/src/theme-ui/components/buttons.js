@@ -1,7 +1,4 @@
-import { rem } from "polished";
-
 const sharedButtonStyles = {
-  boxSizing: "border-box !important",
   border: "none",
   color: "white",
   cursor: "pointer",
@@ -15,7 +12,7 @@ const sharedButtonStyles = {
   py: "xs",
   px: "m",
   borderRadius: "xs",
-  fontWeight: 500,
+  fontWeight: 400,
 
   "&:hover": {
     transform: "translateY(-2px)",
@@ -66,21 +63,10 @@ const secondary = {
   ...sharedButtonStyles,
   bg: "secondary"
 };
-const gradientPrimary = {
-  variant: "gradients.primary"
-};
-
-const gradientSecondary = {
-  variant: "gradients.secondary"
-};
 
 export const buttons = {
   primary: {
     ...primary,
-    gradient: {
-      ...primary,
-      ...gradientPrimary
-    },
     small: {
       ...primary,
       ...small
@@ -88,10 +74,6 @@ export const buttons = {
   },
   secondary: {
     ...secondary,
-    gradient: {
-      ...secondary,
-      ...gradientSecondary
-    },
     small: {
       ...secondary,
       ...small

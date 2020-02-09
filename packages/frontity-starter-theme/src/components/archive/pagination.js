@@ -48,7 +48,7 @@ const Pagination = ({ state, actions, libraries }) => {
           <span>Previous</span>
         </Link>
       ) : (
-        <span className="mutted">Previous</span>
+        <span className="prevLink mutted">Previous</span>
       )}
 
       <Nav direction="row" className="pageNumbers">
@@ -70,7 +70,7 @@ const Pagination = ({ state, actions, libraries }) => {
           <span>Next</span>
         </Link>
       ) : (
-        <span className="mutted">Next</span>
+        <span className="nextLink mutted">Next</span>
       )}
     </Container>
   );

@@ -21,7 +21,7 @@ const Theme = ({ state }) => {
   const { isFetching, isPostType, isArchive, is404 } = data;
 
   return (
-    <Grommet>
+    <Grommet theme={theme}>
       <ThemeProvider theme={theme}>
         <Title />
         <Head>
@@ -43,7 +43,7 @@ const Theme = ({ state }) => {
           <Header />
           <main
             sx={{
-              py: [0, 0, "xxl"]
+              py: ["xl", "xl", "xxl"]
             }}
           >
             {isFetching && <Loading />}

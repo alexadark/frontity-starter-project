@@ -1,26 +1,26 @@
 const sharedStyles = {
-  p: ['m', 'l', 'xl'],
-  boxShadow: 'small',
-}
+  p: ["m", "l", "xl"],
+  boxShadow: "small"
+};
 
 export const card = {
   remove: {
     p: 0,
-    bg: 'transparent',
+    bg: "transparent"
   },
   default: {
     ...sharedStyles,
-    bg: 'cardBg',
-    color: 'text',
+    bg: "cardBg",
+    color: "text"
   },
   primary: {
     ...sharedStyles,
-    bg: 'primary',
-    color: 'white',
+    bg: "primary",
+    color: "white"
   },
   secondary: {
     ...sharedStyles,
-    bg: 'secondary',
-    color: 'white',
-  },
-}
+    bg: "secondary",
+    color: "white"
+  }
+};

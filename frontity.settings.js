@@ -20,7 +20,7 @@ const settings = {
             ["Journal", "/journal/"],
             ["Projects", "/projects/"]
           ],
-          // logo: Logo,
+          // logo: "Starter",
           showSocialLinks: {
             header: false,
             footer: false

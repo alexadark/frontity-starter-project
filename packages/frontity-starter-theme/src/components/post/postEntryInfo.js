@@ -6,7 +6,7 @@ const PostEntryInfo = ({ author, date }) => {
     <div className="postInfo">
       {author && (
         <div className="author">
-          <Link link={author.link}>by {author.name}</Link>
+          by: <Link link={author.link}> {author.name}</Link>
         </div>
       )}
       <div className="date">on {date.toDateString()}</div>

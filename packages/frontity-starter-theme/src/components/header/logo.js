@@ -14,7 +14,7 @@ const Logo = ({ state }) => {
           <img src={logo} alt="logo" sx={{ maxWidth: 50 }} />
         </Link>
       ) : (
-        <h1>
+        <h1 sx={{ variant: "text.branding" }}>
           <Link link="/">{logo}</Link>
         </h1>
       )}

@@ -14,7 +14,13 @@ export default {
     }
   },
   ".mutted": {
-    color: "mutted"
+    color: "mutted",
+    "&.prevLink": {
+      ml: "1.5rem"
+    },
+    "&.nextLink": {
+      mr: "1.5rem"
+    }
   },
   ".pageNumbers": {
     a: {

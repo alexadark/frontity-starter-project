@@ -2,17 +2,31 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "abb5f49ef77e1fce1357",
+  "hash": "80b6163ec87fd8d4555d",
   "publicPath": "/static/",
   "outputPath": "/Users/alexaspalato/projects/gatsby-projects/frontity-wp/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "frontity-wp": "frontity-wp.module.js"
+    "frontity-wp": [
+      "frontity-wp.module.js",
+      "frontity-wp.7b8050afcc651b91af61.hot-update.js"
+    ]
   },
   "assets": [
     {
+      "name": "7b8050afcc651b91af61.hot-update.json",
+      "size": 53,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "archive.module.js",
-      "size": 34818,
+      "size": 37028,
       "chunks": [
         "archive"
       ],
@@ -23,8 +37,23 @@
       "emitted": false
     },
     {
+      "name": "frontity-wp.7b8050afcc651b91af61.hot-update.js",
+      "size": 6835,
+      "chunks": [
+        "frontity-wp"
+      ],
+      "chunkNames": [
+        "frontity-wp"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "frontity-wp.module.js",
-      "size": 16860596,
+      "size": 16814989,
       "chunks": [
         "frontity-wp"
       ],
@@ -32,7 +61,7 @@
         "frontity-wp"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     },
     {
       "name": "images/logo.svg",
@@ -50,7 +79,8 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js"
+        "frontity-wp.module.js",
+        "frontity-wp.7b8050afcc651b91af61.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -62,7 +92,8 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js"
+        "frontity-wp.module.js",
+        "frontity-wp.7b8050afcc651b91af61.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
