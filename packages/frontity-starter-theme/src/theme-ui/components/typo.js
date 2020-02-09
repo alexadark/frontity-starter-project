@@ -45,9 +45,9 @@ export const a = {
   color: "accent",
   fontWeight: "bold",
   textDecoration: "none",
-
+  color: "text",
   "&:hover": {
-    color: "primary"
+    color: "accent"
   }
 };
 

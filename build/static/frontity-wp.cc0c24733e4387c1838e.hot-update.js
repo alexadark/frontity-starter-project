@@ -1,0 +1,15 @@
+webpackHotUpdate("frontity-wp",{
+
+/***/ "./packages/frontity-starter-theme/src/components/post/taxonomies.js":
+/*!***************************************************************************!*\
+  !*** ./packages/frontity-starter-theme/src/components/post/taxonomies.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var theme_ui__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! theme-ui */ \"./node_modules/theme-ui/dist/index.esm.js\");\n/* harmony import */ var _link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../link */ \"./packages/frontity-starter-theme/src/components/link.js\");\n/* harmony import */ var _emotion_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/core */ \"./node_modules/@emotion/core/dist/core.browser.esm.js\");\n/** @jsx jsx */var Taxonomies=(_ref)=>{var{tax,name}=_ref;return Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__[\"jsx\"])(\"div\",{className:\"taxonomies\"},Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__[\"jsx\"])(\"span\",null,name,\": \"),tax&&tax.map(item=>Object(theme_ui__WEBPACK_IMPORTED_MODULE_0__[\"jsx\"])(_link__WEBPACK_IMPORTED_MODULE_1__[\"default\"],{key:item.id,link:item.link},item.name)));};/* harmony default export */ __webpack_exports__[\"default\"] = (Taxonomies);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWNrYWdlcy9mcm9udGl0eS1zdGFydGVyLXRoZW1lL3NyYy9jb21wb25lbnRzL3Bvc3QvdGF4b25vbWllcy5qcz9mMDRjIl0sIm5hbWVzIjpbIlRheG9ub21pZXMiLCJ0YXgiLCJuYW1lIiwibWFwIiwiaXRlbSIsImlkIiwibGluayJdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSxlQUlBLEdBQU1BLFdBQVUsQ0FBRyxRQUFtQixJQUFsQixDQUFFQyxHQUFGLENBQU9DLElBQVAsQ0FBa0IsTUFDcEMsTUFDRSw2REFBSyxTQUFTLENBQUMsWUFBZixFQUNFLGlFQUFPQSxJQUFQLE1BREYsQ0FFR0QsR0FBRyxFQUNGQSxHQUFHLENBQUNFLEdBQUosQ0FBUUMsSUFBSSxFQUNWLHFEQUFDLDZDQUFELEVBQU0sR0FBRyxDQUFFQSxJQUFJLENBQUNDLEVBQWhCLENBQW9CLElBQUksQ0FBRUQsSUFBSSxDQUFDRSxJQUEvQixFQUNHRixJQUFJLENBQUNGLElBRFIsQ0FERixDQUhKLENBREYsQ0FXRCxDQVpELENBY2VGLHlFQUFmIiwiZmlsZSI6Ii4vcGFja2FnZXMvZnJvbnRpdHktc3RhcnRlci10aGVtZS9zcmMvY29tcG9uZW50cy9wb3N0L3RheG9ub21pZXMuanMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiogQGpzeCBqc3ggKi9cbmltcG9ydCB7IGpzeCwgQnV0dG9uIH0gZnJvbSBcInRoZW1lLXVpXCI7XG5pbXBvcnQgTGluayBmcm9tIFwiLi4vbGlua1wiO1xuXG5jb25zdCBUYXhvbm9taWVzID0gKHsgdGF4LCBuYW1lIH0pID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cInRheG9ub21pZXNcIj5cbiAgICAgIDxzcGFuPntuYW1lfTogPC9zcGFuPlxuICAgICAge3RheCAmJlxuICAgICAgICB0YXgubWFwKGl0ZW0gPT4gKFxuICAgICAgICAgIDxMaW5rIGtleT17aXRlbS5pZH0gbGluaz17aXRlbS5saW5rfT5cbiAgICAgICAgICAgIHtpdGVtLm5hbWV9XG4gICAgICAgICAgPC9MaW5rPlxuICAgICAgICApKX1cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IFRheG9ub21pZXM7XG4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./packages/frontity-starter-theme/src/components/post/taxonomies.js\n");
+
+/***/ })
+
+})

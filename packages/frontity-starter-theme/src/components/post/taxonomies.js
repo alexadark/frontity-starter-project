@@ -1,4 +1,5 @@
-import React from "react";
+/** @jsx jsx */
+import { jsx, Button } from "theme-ui";
 import Link from "../link";
 
 const Taxonomies = ({ tax, name }) => {
@@ -7,9 +8,9 @@ const Taxonomies = ({ tax, name }) => {
       <span>{name}: </span>
       {tax &&
         tax.map(item => (
-          <Link key={item.id} link={item.link}>
-            {item.name}
-          </Link>
+          <Button variant="primary.small" key={item.id} sx={{ mx: 5, mb: 10 }}>
+            <Link link={item.link}>{item.name}</Link>
+          </Button>
         ))}
     </div>
   );

@@ -17,7 +17,7 @@ export default {
 
   p: "xl",
   "&.menu-closing": {
-    animation: `${fadeIn} 1 .6s 0s cubic-bezier(0.165, 0.84, 0.44, 1)`,
+    animation: `${fadeIn} 1 .4s 0s cubic-bezier(0.165, 0.84, 0.44, 1)`,
     boxShadow: ["none", "-10px 0 0 rgba(0,0,0,0)"]
   },
   ".close": {
