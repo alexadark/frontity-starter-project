@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "733278acda88c89cce3e",
+  "hash": "abb5f49ef77e1fce1357",
   "publicPath": "/static/",
   "outputPath": "/Users/alexaspalato/projects/gatsby-projects/frontity-wp/build/static",
   "assetsByChunkName": {
@@ -24,7 +24,7 @@
     },
     {
       "name": "frontity-wp.module.js",
-      "size": 16238116,
+      "size": 16860596,
       "chunks": [
         "frontity-wp"
       ],

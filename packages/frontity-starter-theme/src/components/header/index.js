@@ -1,11 +1,12 @@
 /** @jsx jsx */
-import { jsx, Container } from "theme-ui";
+import { jsx, Container, Flex } from "theme-ui";
 import { connect } from "frontity";
 import Menu from "./menu";
 import MobileMenu from "./mobileMenu";
 import Logo from "./logo";
 import SocialShare from "../socialShare";
 import Headroom from "react-headroom";
+import ColorSwitch from "../colorSwitch";
 
 const Header = ({ state }) => {
   return (
@@ -13,12 +14,14 @@ const Header = ({ state }) => {
       <header className="header" sx={{ variant: `header` }}>
         <Container className="container">
           <Logo />
-
-          <Menu
-            direction="row"
-            sx={{ display: ["none", "none", "block"], px: 10 }}
-          />
-          <MobileMenu sx={{ display: ["block", "block", "none"] }} />
+          <Flex>
+            <Menu
+              direction="row"
+              sx={{ display: ["none", "none", "block"], px: 10 }}
+            />
+            <MobileMenu sx={{ display: ["block", "block", "none"] }} />
+            <ColorSwitch sx={{ ml: 10 }} />
+          </Flex>
           {state.theme.showSocialLinks.header && <SocialShare />}
         </Container>
       </header>

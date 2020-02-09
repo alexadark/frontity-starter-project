@@ -15,6 +15,9 @@ export const header = {
     py: "xs",
     width: "90vw"
   },
+  a: {
+    color: "textInverse"
+  },
 
   ".headroom--pinned &": {
     ">div": {
