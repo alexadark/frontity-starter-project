@@ -48,6 +48,13 @@ const ArchiveItem = ({ item, state, type }) => {
             dangerouslySetInnerHTML={{ __html: excerpt }}
           />
         )}
+        {type === "projects" && (
+          <h4>
+            <a href={acf.project_url} target="_blank">
+              View project
+            </a>
+          </h4>
+        )}
 
         {postMeta.showOnArchive && type !== "projects" && (
           <div className="postEntryMeta">

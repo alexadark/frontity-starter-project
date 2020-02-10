@@ -9,13 +9,9 @@ import PostEntryInfo from "./postEntryInfo";
 import Taxonomies from "./taxonomies";
 import { formatPostData } from "../../helpers";
 import PostEntryMedia from "./postEntryMedia";
-import {
-  HeadingBlock,
-  ButtonBlock,
-  ContentBlock,
-  ImageBlock,
-  ProjectsBlock
-} from "../acfBlocks";
+import { HeadingBlock, ContentBlock, ImageBlock } from "../acfBlocks";
+import ProjectsBlock from "../acfBlocks/projectsBlock";
+import ButtonBlock from "../acfBlocks/buttonBlock";
 import featuredStyles from "../../styles/featuredStyles";
 
 const Post = ({ state, libraries, actions }) => {
