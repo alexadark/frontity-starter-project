@@ -1,4 +1,3 @@
-import Logo from "./assets/images/logo.svg";
 const settings = {
   name: "frontity-wp",
   state: {
@@ -18,10 +17,11 @@ const settings = {
             ["Typography", "/typography/"],
             ["Projects", "/projects/"]
           ],
-          // logo: "Starter",
+          logo:
+            "https://demo-wp.alexaspalato.website/wp-content/uploads/2020/02/logo.svg",
           showSocialLinks: {
             header: false,
-            footer: false
+            footer: true
           },
           socialLinks: [
             ["pinterest", "https://www.pinterest.com/frontity/"],

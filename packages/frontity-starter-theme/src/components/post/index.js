@@ -13,6 +13,7 @@ import { HeadingBlock, ContentBlock, ImageBlock } from "../acfBlocks";
 import ProjectsBlock from "../acfBlocks/projectsBlock";
 import ButtonBlock from "../acfBlocks/buttonBlock";
 import featuredStyles from "../../styles/featuredStyles";
+import Archive from "../archive";
 
 const Post = ({ state, libraries, actions }) => {
   const data = getUrlData(state);
@@ -41,7 +42,7 @@ const Post = ({ state, libraries, actions }) => {
 
   useEffect(() => {
     actions.source.fetch("/");
-    // Archive.preload();
+    Archive.preload();
   }, []);
 
   return data.isReady ? (

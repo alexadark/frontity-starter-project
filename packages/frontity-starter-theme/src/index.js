@@ -14,7 +14,7 @@ const testTheme = {
       /**
        * The logo can be a text or an image url
        */
-      logo: Logo,
+      logo: "my site",
       // logo:
       //   "https://about.canva.com/en_in/wp-content/uploads/sites/3/2016/08/logos-1.png",
       // logo: Logo,
@@ -22,11 +22,7 @@ const testTheme = {
         header: true,
         footer: true
       },
-      socialLinks: [
-        ["pinterest", "https://www.pinterest.com/frontity/"],
-        ["facebook", "https://www.instagram.com/frontity/"],
-        ["twitter", "https://www.twitter.com/frontity/"]
-      ],
+      socialLinks: [],
       isMobileMenuOpen: false,
       autoPreFetch: "all",
       featured: {
