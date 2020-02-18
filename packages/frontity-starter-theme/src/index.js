@@ -1,7 +1,7 @@
 import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
-import Logo from "./images/logo.svg";
 import themeUI from "./theme-ui";
+import { projectsHandler } from "./handlers";
 
 const testTheme = {
   name: "frontity-test-theme",
@@ -41,6 +41,9 @@ const testTheme = {
     }
   },
   actions: {
+    init: ({ libraries }) => {
+      libraries.source.handlers.push(projectsHandler);
+    },
     theme: {
       openMobileMenu: ({ state }) => {
         state.theme.isMobileMenuOpen = true;

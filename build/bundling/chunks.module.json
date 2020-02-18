@@ -2,14 +2,28 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "0c3975aac170f1c8f5a5",
+  "hash": "f9a510e0c0cc09afeb52",
   "publicPath": "/static/",
   "outputPath": "/Users/alexaspalato/projects/frontity-projects/frontity-wp/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "frontity-wp": "frontity-wp.module.js"
+    "frontity-wp": [
+      "frontity-wp.module.js",
+      "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
+    ]
   },
   "assets": [
+    {
+      "name": "aacac17c38f20cbc8885.hot-update.json",
+      "size": 53,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
     {
       "name": "archive.module.js",
       "size": 37681,
@@ -23,22 +37,29 @@
       "emitted": false
     },
     {
-      "name": "frontity-wp.module.js",
-      "size": 16821659,
+      "name": "frontity-wp.aacac17c38f20cbc8885.hot-update.js",
+      "size": 4312,
       "chunks": [
         "frontity-wp"
       ],
       "chunkNames": [
         "frontity-wp"
       ],
-      "info": {},
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
       "emitted": false
     },
     {
-      "name": "images/logo.svg",
-      "size": 1863,
-      "chunks": [],
-      "chunkNames": [],
+      "name": "frontity-wp.module.js",
+      "size": 16825224,
+      "chunks": [
+        "frontity-wp"
+      ],
+      "chunkNames": [
+        "frontity-wp"
+      ],
       "info": {},
       "emitted": false
     }
@@ -50,7 +71,8 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js"
+        "frontity-wp.module.js",
+        "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -62,7 +84,8 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js"
+        "frontity-wp.module.js",
+        "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
