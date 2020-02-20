@@ -2,28 +2,17 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "f9a510e0c0cc09afeb52",
+  "hash": "72d136a9dd6bf7e3f0be",
   "publicPath": "/static/",
   "outputPath": "/Users/alexaspalato/projects/frontity-projects/frontity-wp/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
     "frontity-wp": [
       "frontity-wp.module.js",
-      "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
+      "frontity-wp.fd5beeea710bfc1d201f.hot-update.js"
     ]
   },
   "assets": [
-    {
-      "name": "aacac17c38f20cbc8885.hot-update.json",
-      "size": 53,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "archive.module.js",
       "size": 37681,
@@ -37,8 +26,19 @@
       "emitted": false
     },
     {
-      "name": "frontity-wp.aacac17c38f20cbc8885.hot-update.js",
-      "size": 4312,
+      "name": "fd5beeea710bfc1d201f.hot-update.json",
+      "size": 53,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "frontity-wp.fd5beeea710bfc1d201f.hot-update.js",
+      "size": 4237,
       "chunks": [
         "frontity-wp"
       ],
@@ -53,7 +53,7 @@
     },
     {
       "name": "frontity-wp.module.js",
-      "size": 16825224,
+      "size": 16827082,
       "chunks": [
         "frontity-wp"
       ],
@@ -72,7 +72,7 @@
       ],
       "assets": [
         "frontity-wp.module.js",
-        "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
+        "frontity-wp.fd5beeea710bfc1d201f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -85,7 +85,7 @@
       ],
       "assets": [
         "frontity-wp.module.js",
-        "frontity-wp.aacac17c38f20cbc8885.hot-update.js"
+        "frontity-wp.fd5beeea710bfc1d201f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

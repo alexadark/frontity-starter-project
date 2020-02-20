@@ -1,12 +1,12 @@
 export const projectsHandler = {
-  name: "project",
+  name: "projects",
   priority: 10,
-  pattern: "/projects/:slug",
+  pattern: "/projects/",
   func: async ({ route, params, state, libraries }) => {
     //1-get projects
     const response = await libraries.source.api.get({
-      endpoint: "project",
-      params: { slug: params.slug }
+      endpoint: "projects"
+      // params: { slug: params.slug }
     });
     //2- add project to state
     const [project] = await libraries.source.populate({ response, state });
