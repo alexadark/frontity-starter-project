@@ -8,12 +8,6 @@ const ProjectsBlock = ({ projects, title, subtitle, state, actions }) => {
   }, []);
   const response = state.source.get("/projects/");
 
-  const blocksData = console.log(
-    "response",
-    response,
-    "state",
-    state.source.projects
-  );
   return (
     <>
       <h3>{title}</h3>
