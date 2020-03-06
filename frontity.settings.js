@@ -19,6 +19,7 @@ const settings = {
           ],
           logo:
             "https://demo-wp.alexaspalato.website/wp-content/uploads/2020/02/logo.svg",
+          autoPreFetch: "hover",
           showSocialLinks: {
             header: false,
             footer: true
