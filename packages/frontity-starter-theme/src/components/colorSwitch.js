@@ -8,7 +8,7 @@ const ColorSwitch = ({ ...props }) => {
 
   const Icon =
     colorMode === "dark" ? (
-      <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1 }} />
+      <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1, mt: -2 }} />
     ) : (
       <FiMoon
         sx={{
@@ -16,7 +16,7 @@ const ColorSwitch = ({ ...props }) => {
           height: `24px`,
           strokeWidth: 1,
           svg: { stroke: `accent`, fill: `accent` },
-          mt: 3
+          mt: -5
         }}
       />
     );

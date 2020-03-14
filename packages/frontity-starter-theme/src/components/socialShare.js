@@ -1,5 +1,6 @@
+/** @jsx jsx */
+import { jsx, Flex, Box } from "theme-ui";
 import React from "react";
-import { Box } from "theme-ui";
 import { connect } from "frontity";
 import {
   IoLogoTwitter,
@@ -15,23 +16,23 @@ const icons = {
   instagram: IoLogoInstagram
 };
 
-const SocialShare = ({ state }) => {
+const SocialShare = ({ state, ...props }) => {
   const { socialLinks } = state.theme;
   console.log("social", socialLinks);
   return (
-    <div>
+    <Flex sx={{ justifyContent: "center" }} {...props}>
       {socialLinks &&
-        socialLinks.map(([name, link]) => {
+        socialLinks.map(([name, link], i) => {
           const socialIcon = icons[name];
           return (
-            <div>
+            <Box key={i} sx={{ mx: 5 }}>
               <a href={link} target="_blank" rel="noopener noreferrer">
                 <Box as={socialIcon} />
               </a>
-            </div>
+            </Box>
           );
         })}
-    </div>
+    </Flex>
   );
 };
 
