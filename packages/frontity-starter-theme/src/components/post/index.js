@@ -58,7 +58,10 @@ const Post = ({ state, libraries, actions }) => {
           />
         )}
         <Box>
-          <h1 dangerouslySetInnerHTML={{ __html: title }} />
+          <h1
+            dangerouslySetInnerHTML={{ __html: title }}
+            sx={{ textTransform: "uppercase", fontSize: "xl" }}
+          />
           {data.isPost && postInfo.showOnPost && (
             <PostEntryInfo author={author} date={date} />
           )}

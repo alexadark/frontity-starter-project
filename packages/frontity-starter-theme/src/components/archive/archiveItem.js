@@ -37,7 +37,10 @@ const ArchiveItem = ({ item, state, type }) => {
               sx={{ ...featuredStyles }}
             />
           )}
-          <h2 dangerouslySetInnerHTML={{ __html: title }} />
+          <h2
+            dangerouslySetInnerHTML={{ __html: title }}
+            sx={{ textTransform: "uppercase" }}
+          />
         </Link>
         {postInfo.showOnArchive && type !== "projects" && (
           <PostEntryInfo author={author} date={date} />
