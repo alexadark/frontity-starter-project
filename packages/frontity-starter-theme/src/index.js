@@ -1,10 +1,9 @@
 import Theme from "./components";
 import image from "@frontity/html2react/processors/image";
-import themeUI from "./theme-ui";
 import { projectsHandler } from "./handlers";
 
-const testTheme = {
-  name: "frontity-test-theme",
+const starterTheme = {
+  name: "frontity-starter-theme",
   roots: {
     theme: Theme
   },
@@ -36,8 +35,7 @@ const testTheme = {
       postMeta: {
         showOnArchive: true,
         showOnPost: true
-      },
-      themeUI
+      }
     }
   },
   actions: {
