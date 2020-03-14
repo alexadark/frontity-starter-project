@@ -2,28 +2,14 @@
   "errors": [],
   "warnings": [],
   "version": "4.41.5",
-  "hash": "d511d33cf043681ef086",
+  "hash": "e5012227113f72e95d37",
   "publicPath": "/static/",
   "outputPath": "/Users/alexaspalato/projects/frontity-projects/frontity-wp/build/static",
   "assetsByChunkName": {
     "archive": "archive.module.js",
-    "frontity-wp": [
-      "frontity-wp.module.js",
-      "frontity-wp.72d136a9dd6bf7e3f0be.hot-update.js"
-    ]
+    "frontity-wp": "frontity-wp.module.js"
   },
   "assets": [
-    {
-      "name": "72d136a9dd6bf7e3f0be.hot-update.json",
-      "size": 53,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "archive.module.js",
       "size": 37681,
@@ -34,21 +20,6 @@
         "archive"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "frontity-wp.72d136a9dd6bf7e3f0be.hot-update.js",
-      "size": 5572,
-      "chunks": [
-        "frontity-wp"
-      ],
-      "chunkNames": [
-        "frontity-wp"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -71,8 +42,7 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js",
-        "frontity-wp.72d136a9dd6bf7e3f0be.hot-update.js"
+        "frontity-wp.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -84,8 +54,7 @@
         "frontity-wp"
       ],
       "assets": [
-        "frontity-wp.module.js",
-        "frontity-wp.72d136a9dd6bf7e3f0be.hot-update.js"
+        "frontity-wp.module.js"
       ],
       "children": {},
       "childAssets": {}
