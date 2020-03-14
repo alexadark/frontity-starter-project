@@ -24,7 +24,7 @@ const testTheme = {
       },
       socialLinks: [],
       isMobileMenuOpen: false,
-      autoPreFetch: "all",
+      autoPreFetch: "none",
       featured: {
         showOnArchive: true,
         showOnPost: true
