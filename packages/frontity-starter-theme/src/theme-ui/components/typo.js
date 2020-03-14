@@ -1,14 +1,8 @@
 import { rem } from "polished";
 
 export const fonts = {
-  body: "Khand",
-  heading: "Baumans"
-};
-
-export const fontWeights = {
-  body: 400,
-  heading: "bold",
-  bold: 700
+  body: "khandmedium",
+  heading: "baumansregular"
 };
 
 export const fontSizes = {

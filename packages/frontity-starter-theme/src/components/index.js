@@ -2,6 +2,7 @@
 import { jsx, Container, Flex, ThemeProvider } from "theme-ui";
 import theme from "../theme-ui";
 import { Global, connect, Head } from "frontity";
+import FontFace from "../styles/fontFace";
 import globalStyles from "../styles/globalStyles";
 import Header from "./header";
 import Footer from "./footer";
@@ -27,11 +28,8 @@ const Theme = ({ state }) => {
         <Head>
           <meta name="description" content={state.frontity.description} />
           <html lang="en" />
-          <link
-            href="https://fonts.googleapis.com/css?family=Baumans|Khand:400,500,600,700&display=swap"
-            rel="stylesheet"
-          />
         </Head>
+        <FontFace />
         <Global styles={globalStyles} />
         <Flex
           sx={{
