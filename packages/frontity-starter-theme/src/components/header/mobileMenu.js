@@ -1,7 +1,7 @@
 /** @jsx jsx */
-import { jsx, Box } from "theme-ui";
+import { jsx, Box, Close } from "theme-ui";
 import { connect } from "frontity";
-import { Menu as MenuIcon, Close } from "grommet-icons";
+import { Menu as MenuIcon } from "grommet-icons";
 import { Layer, Button } from "grommet";
 import Menu from "./menu";
 import mobileMenuStyles from "../../styles/mobileMenuStyles";
@@ -32,22 +32,18 @@ const MobileMenu = ({ state, actions, ...props }) => {
           onEsc={closeMobileMenu}
           sx={{ ...mobileMenuStyles }}
         >
-          <Button
-            icon={<Close />}
-            a11yTitle="Close navigation menu"
+          <Box
+            color="white"
             sx={{
-              pointer: `cursor`,
-              svg: {
-                stroke: `headerColor`,
-                width: `15px`,
-                height: `15px`
-              }
+              pointer: `cursor`
             }}
             className="close"
             onClick={closeMobileMenu}
-          />
+          >
+            <Close />
+          </Box>
 
-          <Menu direction="column" gap={0} />
+          <Menu sx={{ flexDirection: "column" }} />
         </Layer>
       )}
     </Box>

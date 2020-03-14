@@ -9,7 +9,7 @@ const Menu = ({ state, direction, ...props }) => {
   const menuItems = state.theme.menu;
 
   return (
-    <Flex as="nav">
+    <Flex as="nav" {...props}>
       {menuItems.map(([name, link]) => {
         const isCurrentPage = state.router.link === link;
         return (
@@ -19,7 +19,6 @@ const Menu = ({ state, direction, ...props }) => {
             className="menu-item"
             aria-current={isCurrentPage ? "page" : undefined}
             sx={{ fontWeight: 500 }}
-            {...props}
           >
             {name}
           </Link>

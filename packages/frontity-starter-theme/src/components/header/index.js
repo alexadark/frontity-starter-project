@@ -17,7 +17,10 @@ const Header = ({ state }) => {
           <Flex>
             <Menu
               direction="row"
-              sx={{ display: ["none", "none", "block"], px: 10 }}
+              sx={{
+                display: ["none", "none", "block"],
+                ".menu-item": { px: 10 }
+              }}
             />
             <MobileMenu sx={{ display: ["block", "block", "none"] }} />
             {state.theme.showSocialLinks.header && (
