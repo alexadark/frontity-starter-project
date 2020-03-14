@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx } from "theme-ui";
+import { jsx, Flex, NnavLink } from "theme-ui";
 import React from "react";
 import { Nav } from "grommet";
 import { connect } from "frontity";
@@ -9,7 +9,7 @@ const Menu = ({ state, direction, ...props }) => {
   const menuItems = state.theme.menu;
 
   return (
-    <Nav direction={direction} gap={0}>
+    <Flex as="nav">
       {menuItems.map(([name, link]) => {
         const isCurrentPage = state.router.link === link;
         return (
@@ -25,7 +25,7 @@ const Menu = ({ state, direction, ...props }) => {
           </Link>
         );
       })}
-    </Nav>
+    </Flex>
   );
 };
 

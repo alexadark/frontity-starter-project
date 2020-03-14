@@ -1,32 +1,32 @@
 /** @jsx jsx */
-import { jsx, useColorMode } from "theme-ui";
-import { Button } from "grommet";
+import { jsx, useColorMode, Box } from "theme-ui";
+
 import { FiSun, FiMoon } from "react-icons/fi";
 
 const ColorSwitch = ({ ...props }) => {
   const [colorMode, setColorMode] = useColorMode();
+
+  const Icon =
+    colorMode === "dark" ? (
+      <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1 }} />
+    ) : (
+      <FiMoon
+        sx={{
+          width: `24px`,
+          height: `24px`,
+          strokeWidth: 1,
+          svg: { stroke: `accent`, fill: `accent` },
+          mt: 3
+        }}
+      />
+    );
   return (
-    <Button
-      a11yTitle="Toggle dark mode"
+    <Box
       onClick={() => setColorMode(colorMode === "default" ? "dark" : "default")}
-      plain
-      icon={
-        colorMode === "dark" ? (
-          <FiSun sx={{ width: `24px`, height: `24px`, strokeWidth: 1 }} />
-        ) : (
-          <FiMoon
-            sx={{
-              width: `24px`,
-              height: `24px`,
-              strokeWidth: 1,
-              svg: { stroke: `accent`, fill: `accent` },
-              mt: 3
-            }}
-          />
-        )
-      }
       {...props}
-    />
+    >
+      {Icon}
+    </Box>
   );
 };
 
