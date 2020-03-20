@@ -39,9 +39,6 @@ const starterTheme = {
     }
   },
   actions: {
-    init: ({ libraries }) => {
-      libraries.source.handlers.push(projectsHandler);
-    },
     theme: {
       openMobileMenu: ({ state }) => {
         state.theme.isMobileMenuOpen = true;
@@ -54,8 +51,11 @@ const starterTheme = {
   libraries: {
     html2react: {
       processors: [image]
+    },
+    source: {
+      handlers: [projectsHandler]
     }
   }
 };
 
-export default testTheme;
+export default starterTheme;
